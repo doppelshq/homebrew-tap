@@ -8,4 +8,4 @@ brew install doppels
 ```
 
 Binary releases come from [`doppelshq/doppels`](https://github.com/doppelshq/doppels/releases).
-Current formula tracks the pipeline test tag `v0.0.0-dev.0` (prerelease) until a stable alpha lands.
+Current formula tracks the pipeline test tag `v0.0.0-dev.1` (prerelease) until a stable alpha lands.

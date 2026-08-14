@@ -1,28 +1,28 @@
 class Doppels < Formula
   desc "Freeze agent sessions into local deterministic recipes"
   homepage "https://doppels.so"
-  version "0.0.0-dev.0"
+  version "0.0.0-dev.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.0/doppels_0.0.0-dev.0_darwin_arm64.tar.gz"
-      sha256 "ed46a1a721bea458bf8f38efbd3568d88922f4021fe7a1f48e60793e15155f73"
+      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.1/doppels_0.0.0-dev.1_darwin_arm64.tar.gz"
+      sha256 "ec72af1acabf689d9cdc5f94b4e7bbae41dddd9e13b6e32a4356712dd88bd079"
     end
     on_intel do
-      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.0/doppels_0.0.0-dev.0_darwin_amd64.tar.gz"
-      sha256 "a94d06743ca48296cb8b329295d12ba5fcaf5d607c4ae343e3ff743f9381401f"
+      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.1/doppels_0.0.0-dev.1_darwin_amd64.tar.gz"
+      sha256 "4d4b1d8179f2f548117ae825e920cec400151c2d8c0cca11c546b408230755a0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.0/doppels_0.0.0-dev.0_linux_arm64.tar.gz"
-      sha256 "e35037dd85481659fc195454e9e46b184319c8bb387effd561e4ffbebe1f2c43"
+      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.1/doppels_0.0.0-dev.1_linux_arm64.tar.gz"
+      sha256 "2b201ae03ba1cff9b3e801a5d61157411128f9c1365a971cc4a42851c9b2f2ab"
     end
     on_intel do
-      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.0/doppels_0.0.0-dev.0_linux_amd64.tar.gz"
-      sha256 "d453c11d94f78008f3fffe57c239ec324aa63f89e7c1c76e3a84a02a210f5ae7"
+      url "https://github.com/doppelshq/doppels/releases/download/v0.0.0-dev.1/doppels_0.0.0-dev.1_linux_amd64.tar.gz"
+      sha256 "40a7be10bb4680a090f2086332fff39e6619bd47e4c1d709a86e5a4890a46b32"
     end
   end
 

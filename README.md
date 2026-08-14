@@ -4,6 +4,7 @@ Homebrew formulae for [Doppels](https://doppels.so).
 
 ```bash
 brew tap doppelshq/tap
+brew trust doppelshq/tap   # Homebrew 6+
 brew install doppels
 ```
 

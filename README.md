@@ -9,4 +9,11 @@ brew install doppels
 ```
 
 Binary releases come from [`doppelshq/doppels`](https://github.com/doppelshq/doppels/releases).
-Current formula tracks the pipeline test tag `v0.0.0-dev.1` (prerelease) until a stable alpha lands.
+Current formula tracks a pipeline prerelease until a stable tag lands.
+
+## Later: Homebrew core
+
+When there is a **stable** (non-prerelease) release, open a PR to
+[`Homebrew/homebrew-core`](https://github.com/Homebrew/homebrew-core) so users
+can run `brew install doppels` with no tap. See Homebrew’s
+[Adding Software](https://docs.brew.sh/Adding-Software-to-Homebrew) guide.
